@@ -3,7 +3,7 @@
 import type { Skill } from "@/lib/types";
 import {
   SiHtml5,
-  SiCss,
+  SiCss3,
   SiJavascript,
   SiReact,
   SiTailwindcss,
@@ -14,7 +14,7 @@ import {
   SiMongodb,
   SiPython,
   SiGit,
-  SiVisualstudiocode,
+  SiVscode,
   SiPostman,
   SiXampp,
 } from "react-icons/si";
@@ -27,7 +27,7 @@ type IconComponent = React.ComponentType<{ size?: number; color?: string }>;
 // to avoid breakage if someone uses either key in data.ts.
 const iconMap: Record<string, IconComponent> = {
   SiHtml5:           SiHtml5 as IconComponent,
-  SiCss:            SiCss as IconComponent,
+  SiCss3:            SiCss3 as IconComponent,
   SiJavascript:      SiJavascript as IconComponent,
   SiReact:           SiReact as IconComponent,
   SiTailwindcss:     SiTailwindcss as IconComponent,
@@ -38,7 +38,8 @@ const iconMap: Record<string, IconComponent> = {
   SiMongodb:         SiMongodb as IconComponent,
   SiPython:          SiPython as IconComponent,
   SiGit:             SiGit as IconComponent,
-  SiVisualstudiocode: SiVisualstudiocode as IconComponent,          // legacy alias — both work
+  SiVscode:          SiVscode as IconComponent,           // correct react-icons v5 key
+  SiVisualstudiocode: SiVscode as IconComponent,  
   SiPostman:         SiPostman as IconComponent,
   SiXampp:           SiXampp as IconComponent,
   FaJava:            FaJava as IconComponent,
