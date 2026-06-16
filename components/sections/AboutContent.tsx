@@ -6,6 +6,7 @@ import { Award, Download, GraduationCap, Calendar } from "lucide-react";
 import { siteConfig, aboutStats, certifications, education } from "@/lib/data";
 import SectionHeader from "@/components/shared/SectionHeader";
 import AnimatedSection from "@/components/shared/AnimatedSection";
+import Image from 'next/image';
 
 export default function AboutContent() {
   const prefersReducedMotion = useReducedMotion();
@@ -23,14 +24,16 @@ export default function AboutContent() {
         {/* Avatar column */}
         <AnimatedSection direction="left" className="flex flex-col items-center lg:items-start gap-6">
           {/* Gradient avatar with initials */}
-          <div
-            className="relative w-40 h-40 rounded-2xl flex items-center justify-center text-4xl font-black text-white select-none overflow-hidden"
-            style={{
-              background: "linear-gradient(135deg, #7c3aed 0%, #4c1d95 50%, #1e1040 100%)",
-            }}
-          >
-            AP
-          </div>
+      {/* Optimized Next.js Image */}
+      <div className="relative w-40 h-40 rounded-2xl overflow-hidden">
+        <Image
+          src="/portfolio image.png" // Replace with your exact filename
+          alt="Atri Patel"
+          fill
+          className="object-cover"
+          priority // Optional: Loads the image quickly since it's above the fold
+        />
+      </div>
 
           <a
             href="/resume.pdf"

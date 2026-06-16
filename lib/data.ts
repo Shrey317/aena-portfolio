@@ -21,8 +21,8 @@ export const siteConfig: SiteConfig = {
   url: "https://atri-patel.vercel.app", // ← update after first Vercel deploy
   ogImage: "/og-image.png",
   links: {
-    github: "https://github.com/atripatel",     // ← update with your real GitHub URL
-    linkedin: "https://linkedin.com/in/atripatel", // ← update with your real LinkedIn URL
+    github: "hhttps://github.com/Atri1731",     // ← update with your real GitHub URL
+    linkedin: "https://www.linkedin.com/in/atri-patel-36a5b8343/", // ← update with your real LinkedIn URL
     twitter: "",
     email: "atripatel11004@gmail.com",
     phone: "+91 82380 04260",
@@ -36,7 +36,7 @@ export const hero = {
   subtitle: "Full-Stack Web Developer",
   tagline:
     "Building scalable, secure, and user-centric MERN applications — from pixel-perfect UIs to robust backend APIs.",
-  availabilityText: "Open to internships & full-time roles",
+  availabilityText: "Open to full-time roles",
 };
 
 // ─── Navigation ───────────────────────────────────────────────────────────────
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     tech: ["React.js", "JavaScript", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
     featured: true,
     // liveUrl: "https://your-deployed-url.vercel.app",
-    // repoUrl: "https://github.com/atripatel/oujat-mern",
+    // repoUrl: "hhttps://github.com/Atri1731/oujat-mern",
   },
   {
     id: "gym-management",
@@ -71,7 +71,7 @@ export const projects: Project[] = [
       "A dynamic and responsive website for a gym to showcase services, class schedules, trainer profiles, and membership plans. PHP handles form submissions for contact inquiries and member sign-ups.",
     tech: ["HTML", "CSS", "JavaScript", "PHP"],
     featured: true,
-    // repoUrl: "https://github.com/atripatel/gym-management",
+    // repoUrl: "hhttps://github.com/Atri1731/gym-management",
   },
   {
     id: "food-order",
@@ -80,7 +80,7 @@ export const projects: Project[] = [
       "A responsive web application for booking restaurant tables online. Features a user-friendly interface for browsing available time slots, submitting reservations, and receiving confirmation.",
     tech: ["HTML", "CSS", "PHP"],
     featured: true,
-    // repoUrl: "https://github.com/atripatel/food-order",
+    // repoUrl: "hhttps://github.com/Atri1731/food-order",
   },
   {
     id: "crop-chatbot",
@@ -89,7 +89,7 @@ export const projects: Project[] = [
       "An intelligent chatbot that helps farmers select optimal crops, fertilizers, and pest control methods based on soil types, weather conditions, and geographical location using NLP and ML.",
     tech: ["Python", "NLP", "Machine Learning", "Weather APIs"],
     featured: true,
-    // repoUrl: "https://github.com/atripatel/crop-chatbot",
+    // repoUrl: "hhttps://github.com/Atri1731/crop-chatbot",
   },
 ];
 
