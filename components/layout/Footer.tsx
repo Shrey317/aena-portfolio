@@ -107,11 +107,6 @@ export default function Footer() {
           <p className="text-xs text-[#555]">
             © {year} {siteConfig.name}. All rights reserved.
           </p>
-          <p className="text-xs text-[#555]">
-            Built with{" "}
-            <span className="text-violet-400">Next.js 15</span> &{" "}
-            <span className="text-violet-400">Tailwind CSS</span>
-          </p>
         </div>
       </div>
     </footer>

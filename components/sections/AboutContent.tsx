@@ -54,7 +54,7 @@ export default function AboutContent() {
           </h2>
           <p className="text-[#888] leading-relaxed">
             I&apos;m a Computer Engineering student at GIDC Degree Engineering College
-            (graduating May 2026) with a strong passion for building full-stack web
+            with a strong passion for building full-stack web
             applications. My core stack is the MERN ecosystem — React.js on the
             frontend, Node.js and Express.js on the backend, and MongoDB as my primary database.
           </p>

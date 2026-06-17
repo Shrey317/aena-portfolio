@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
   title: "Atri Patel — Full-Stack Web Developer",
   description:
     "Full-Stack Web Developer with expertise in MERN stack and modern web technologies. Building scalable, user-centric applications from Valsad, Gujarat.",
-  url: "https://atri-patel.vercel.app", // ← update after first Vercel deploy
+  url: "https://aena-portfolio.vercel.app", // ← update after first Vercel deploy
   ogImage: "/og-image.png",
   links: {
     github: "hhttps://github.com/Atri1731",     // ← update with your real GitHub URL
